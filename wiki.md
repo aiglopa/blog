@@ -1,5 +1,5 @@
-## Project Wiki
-# Delete
+# Project Wiki
+## Delete
 Afin de pouvoir supprimer un project wiki, il faut supprimer son repo Git (caché)
 
 Afficher les informations du repos :
