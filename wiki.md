@@ -2,10 +2,13 @@
 ## Delete
 Afin de pouvoir supprimer un project wiki, il faut supprimer son repo Git (caché)
 
-Afficher les informations du repos :
+Trouver le repo GIt derrière le wiki :
+
 ``` 
-az repos show --wiki ABC.wiki --project <MonProjet>
-```
+az devops wiki list --project <MonProjet>
+``` 
+
+Récupérer le repository id (ex : 2c9047e3-ecb9-4913-b51e-893bc5a3e610)
 
 Suppression du repos
 ```
